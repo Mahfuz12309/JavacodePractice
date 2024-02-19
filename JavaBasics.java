@@ -4,5 +4,8 @@ public class JavaBasics{
         System.err.println("***");
         System.err.println("**");
         System.err.println("*"); 
+
+        // this is the simple code for showing output to the terminal 
+        
     }
 }
