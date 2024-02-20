@@ -24,6 +24,12 @@ public class UserInputandOutput {
        area=  3.1416f*radius*radius;
 
        System.out.println("The area of the circle: "+area);
+
+       //////////////find the average of A B and sum
+
+       int avg= (a+b+sum)/3;
+
+       System.out.println("The average of of A B and sum: "+avg);
     }
     
 }
