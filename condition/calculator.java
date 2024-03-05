@@ -28,6 +28,7 @@ public class calculator {
                 System.out.println(a+"*"+b+"="+ans);
                 break;
             }
+            // for division
             case '/':{
                 ans = a/b;
                 System.out.println(a+"/"+b+"="+ans);
