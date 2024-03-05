@@ -36,7 +36,7 @@ public class calculator {
             }
                 
                 
-        
+        // if none of this happened
             default:
                 break;
         }
