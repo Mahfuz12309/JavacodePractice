@@ -10,11 +10,13 @@ public class calculator {
         b= sc.nextFloat();
         choice = sc.next().charAt(0);
         switch (choice) {
+            //for summation 
             case '+':{
                 ans = a+b;
                 System.out.println(a+"+"+b+"="+ans);
                 break;
             }
+            // for substraction
             case '-':{
                 ans = a-b;
                 System.out.println(a+"-"+b+"="+ans);
