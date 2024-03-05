@@ -5,7 +5,7 @@ public class Print1to100usingWhileLoop {
         int i=1;
         while(i<=100)
         {
-            System.out.println(i);
+            System.out.print(i+" ");
             i++;
         }
     }
