@@ -22,6 +22,7 @@ public class calculator {
                 System.out.println(a+"-"+b+"="+ans);
                 break;
             }
+            // for multiplication
             case '*':{
                 ans = a*b;
                 System.out.println(a+"*"+b+"="+ans);
