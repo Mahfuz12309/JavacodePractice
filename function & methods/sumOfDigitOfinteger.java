@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class someOfDigitOfinteger {
+public class sumOfDigitOfinteger {
     public static  int sumof(int a)
     {
         int sum= 0;
