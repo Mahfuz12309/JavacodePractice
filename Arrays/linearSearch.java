@@ -1,28 +1,40 @@
 import java.util.*;
-
 public class linearSearch {
-    public static int LinSearch(int number[],int key){
-        for (int i=0; i<number.length;i++)
-        {
-            if(number[i]==key){
-                return i;
-            }
-           
-                
-        }
-        return -1;
-    }
     public static void main(String[] args) {
-        int number[] =  {2,4,6,8,10,12,14,16}; 
-        int key =60;
-        int index = LinSearch(number, key);
-        if(index ==-1){
-            System.out.println("Not Found");
-        }
-        else
+        Scanner sc = new Scanner(System.in);
+        int length;
+        System.out.println("Enter the Array size: ");
+        length=sc.nextInt();
+        int number []= new int[length];
+        for (int i=0;i<length;i++)
         {
-            System.out.println("The key is in index : "+index);
+            number[i]=sc.nextInt();
+
         }
+        for (int i=0;i<length;i++)
+        {
+            System.out.print(number[i]+" ");
+            
+        }
+        System.out.println();
+        System.out.print("Enter the key you want to search: ");
+        int element;
+        int flag=-1;
+        element = sc.nextInt();
+        for (int i=0;i<length;i++)
+        {
+            if(element == number[i])
+            {
+                flag =i;
+                break;
+            }
+            
+        }
+        if(flag>=0){
+            System.out.println("The key has been found and the index of the element is : "+flag);
+        }
+
+
     }
     
 }

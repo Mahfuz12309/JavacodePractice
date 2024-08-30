@@ -44,8 +44,8 @@ public static void pallindromicPattern(int a){
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
-        // NumberPyramid(n);
-        pallindromicPattern(n);
+        NumberPyramid(n);
+        // pallindromicPattern(n);
 
         
     }
