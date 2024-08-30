@@ -1,0 +1,1 @@
+This repository has all the codes that I learned in my academic courses I got. I had multiple github profile and some of the code was not added to my profile. For more effectivity and Accessibility I added all the code in here. You can checkout all the code practice for java.
