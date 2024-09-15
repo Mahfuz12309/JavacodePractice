@@ -1,3 +1,5 @@
+package javaCodePractice.Arrays;
+
 public class ReverseArray {
     public static void reversearray (int num[])
     {

@@ -1,3 +1,5 @@
+package javaCodePractice.Arrays;
+
 import java.util.Scanner;
 
 public class basic_array {

@@ -1,3 +1,5 @@
+package javaCodePractice.Arrays;
+
 public class BinarySearch {
     public static int binarysearch(int num[],int key){
         int start=0, end =num.length-1;
