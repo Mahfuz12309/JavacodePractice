@@ -1,4 +1,3 @@
-package javaCodePractice.Arrays;
 
 public class BuySellStocks {
     public static int buysellstocks(int price[]){

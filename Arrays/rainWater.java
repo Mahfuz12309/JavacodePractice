@@ -1,4 +1,3 @@
-package javaCodePractice.Arrays;
 
 public class rainWater {
     public static int trapwater(int height[]){

@@ -1,3 +1,5 @@
+package javaCodePractice;
+
 import java.util.*;
 public class twoSArray {
     public static void serach(int mat[][],int number){

@@ -1,4 +1,3 @@
-package javaCodePractice.Arrays;
 
 import java.util.Scanner;
 

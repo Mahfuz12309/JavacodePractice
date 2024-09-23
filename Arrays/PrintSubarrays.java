@@ -1,4 +1,3 @@
-package javaCodePractice.Arrays;
 
 public class PrintSubarrays {
     public static void subarray(int number[]){

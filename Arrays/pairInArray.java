@@ -1,4 +1,3 @@
-package javaCodePractice.Arrays;
 
 public class pairInArray {
     public static void printpair(int num[])
